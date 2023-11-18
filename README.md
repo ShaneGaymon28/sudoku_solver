@@ -21,6 +21,7 @@ You can run the program by opening a terminal and typing `python3 GUI.py`
 * New Puzzle: generates a new, unique puzzle board
 * Show/Hide Solution: shows the COMPLETE solution to the user (NOTE: you must hide the solution to continue entering values into the puzzle)
 * Hint: randomly reveal one CORRECT square in the puzzle (NOTE: you are allowed 5 per game)
+* Difficulty: selects the difficulty for the puzzle (easy, medium, or hard)
 
 ## Features
 * Generate a new, valid sudoku puzzle
