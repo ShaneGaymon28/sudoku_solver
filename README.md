@@ -1,6 +1,8 @@
 # sudoku_solver
 A sudoku solver program using pygame and python
 
+
+
 ## How to Run
 You can run the program by opening a terminal and typing `python3 GUI.py` 
 
