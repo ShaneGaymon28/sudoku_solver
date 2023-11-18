@@ -196,6 +196,7 @@ def main():
                 elif options[1][1].collidepoint(pos[0], pos[1]):
                     cur_diff = board.get_difficulty()
                     board.generate_new_board(GridGenerator, cur_diff)
+                    hints = 5
                     start = time.time()
                     finish = False
                 elif options[2][1].collidepoint(pos[0], pos[1]):
@@ -216,14 +217,17 @@ def main():
                     board.generate_new_board(GridGenerator, 1)
                     highlight_diff(difficulty, difficulty[0])
                     start = time.time()
+                    hints = 5
                 elif difficulty[1][1].collidepoint(pos[0], pos[1]) and board.get_difficulty() != 3:
                     board.generate_new_board(GridGenerator, 3)
                     highlight_diff(difficulty, difficulty[1])
                     start = time.time()
+                    hints = 5
                 elif difficulty[2][1].collidepoint(pos[0], pos[1]) and board.get_difficulty() != 5:
                     board.generate_new_board(GridGenerator, 5)
                     highlight_diff(difficulty, difficulty[2])
                     start = time.time()
+                    hints = 5
                 else:
                     clicked = board.click(pos)
                     if clicked:
