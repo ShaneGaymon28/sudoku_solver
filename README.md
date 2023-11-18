@@ -1,6 +1,8 @@
 # sudoku_solver
 A sudoku solver program using pygame and python
 
+![alt text](https://github.com/ShaneGaymon28/sudoku_solver/blob/main/images/sudoku_solver_screenshot.png![image](https://github.com/ShaneGaymon28/sudoku_solver/assets/42068514/8f308352-8284-4ec6-9f97-16d8b33bcf09)
+ "Sudoku Solver")
 
 
 ## How to Run
